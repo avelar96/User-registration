@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+    <title>Users registration</title>
+</head>
+<body>
+    <header>
+        <h1>Index</h1>
+        <nav>
+            <a href="index.html">Index</a>
+            <a href="register.html">Register</a>
+            <a href="users.html">Users</a>
+        </nav>
+    </header>
+    <div class="login-container">
+        <h3>Member Login</h3>
+        <div id="alertError" class="alert-error hide">
+            <p>Invalid credentials.Please verify!</p>
+        </div>
+        <input class="control" type="text" id="txtEmail" placeholder="Username">
+        <input class="control" type="password" id="txtPassword" placeholder="Password">
+        <button id="btnLogin">Log in</button> <a href="register.html">Sign up</a>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/storemanager.js"></script>
+    <script src="scripts/login.js"></script>
+</body>
+</html>

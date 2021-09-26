@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+    <!--add the menu bar here-->
+    <h1>Register a user in the system</h1>
+    <nav>
+        <a href="register.html">Register</a>
+        <a href="index.html">Index</a>
+        <a href="users.html">Users</a>
+    </nav>
+    <div class="menu-info">
+        <label>Users</label>
+    </div>
+    </header>
+    <div class="capture-form">
+        <h3>User information</h3>
+        <!--email,password,first name,last name, age,phone number, payment method(select),color-->
+        <div class="control">
+            <label>Email:</label>
+            <input id="txtEmail" type="email">
+        </div>
+        <div class="control">
+            <label>password:</label>
+            <input id="txtPassword" type="password">
+        </div>
+        <div class="control">
+            <Label>First name:</Label>
+            <input id="txtFirstname" type="firstname">
+        </div>
+        <div class="control">
+            <label>Last name:</label>
+            <input id="txtLastname" type="lastname">
+        </div>
+        <div class="control">
+            <label>Age:</label>
+            <input id="txtAge" type="age">
+        </div>
+        <div class="control">
+            <label>Address:</label>
+            <input id="txtAddress" type="address">
+        </div>
+        <div class="control">
+            <label>Phone number:</label>
+            <input id="txtPhone" type="phone">
+        </div>
+        <div class="control">
+            <label>payment</label>
+            <select id="selpayment">
+                <option value="paypal">PayPal</option>
+                <option value="check">Check</option>
+                <option value="cash">Cash</option>
+                <option value="videogames">Video Games</option>
+            </select>
+        </div>
+        <div class="control">
+            <label>Color</label>
+            <input id="txtColor" type="color">
+        </div>
+        <div class="control">
+            <button id="btn-save">Register User</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/storemanager.js"></script>
+    <script src="scripts/register.js"></script>
+</body>
+</html>

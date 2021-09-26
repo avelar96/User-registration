@@ -1,0 +1,89 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:white;
+    margin:0;
+}
+header{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lightblue;
+}
+header h1{
+    color: white;
+    font-size: 3rem;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 3rem;
+}
+.capture-form{
+    background-color: lightcoral;
+    border:1px solid gray;
+    width:80%;
+    margin:1rem auto;
+    border-radius:10px;
+    padding: 1rem;
+    color:white;
+}
+div.control{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+}
+.control label{
+    flex-basis: 8rem;
+    text-align: right;
+    margin-right: 1rem;
+}
+.control input,.control select{
+    flex-basis: 20rem;
+    padding: 5px;
+}
+#btn-save{
+    padding: 1rem;
+    background-color:orange;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+
+/*login*/
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    border:1px solid #b1b1b1;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 50px auto;
+    background-color: lightcoral;
+}
+.login-container .control{
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.hide{
+    display: none;
+}
+.btn-login{
+    background-color: #090909;
+    border:none;
+    color: white;
+    padding: 10px;
+}
+.alert-error{
+    background-color: #ffe0e2;
+    border:1px solid #ff5151;
+    color:#ff5151;
+    padding: 3px;
+}
